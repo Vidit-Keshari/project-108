@@ -1,0 +1,51 @@
+body {
+    font-family: 'Alkatra', cursive;
+    background: hsla(254, 68%, 9%, 1);
+    background: linear-gradient(90deg, hsla(254, 68%, 9%, 1) 0%, hsla(269, 97%, 37%, 1) 33%, hsla(320, 72%, 48%, 1) 66%, hsla(172, 77%, 61%, 1) 100%);
+    background: -moz-linear-gradient(90deg, hsla(254, 68%, 9%, 1) 0%, hsla(269, 97%, 37%, 1) 33%, hsla(320, 72%, 48%, 1) 66%, hsla(172, 77%, 61%, 1) 100%);
+    background: -webkit-linear-gradient(90deg, hsla(254, 68%, 9%, 1) 0%, hsla(269, 97%, 37%, 1) 33%, hsla(320, 72%, 48%, 1) 66%, hsla(172, 77%, 61%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#0e0725", endColorstr="#5c03bc", GradientType=1);
+}
+
+#listen {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    box-shadow: 25px -20px 30px rgb(67, 4, 80);
+}
+
+.header_div {
+    background-color: tomato;
+    color: midnightblue;
+    text-shadow: 10px -10px 5px firebrick;
+}
+
+p {
+    font-family: monospace;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-size: large;
+}
+
+#result_label {
+    text-shadow: 10px -10px 5px rgb(180, 5, 113);
+}
+
+.btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 25px;
+    width: 120px;
+    font-weight: 650;
+    letter-spacing: 8px;
+}
+
+.copy_right_footer {
+    background-color: slateblue;
+    color: plum;
+    font-size: xx-large;
+    line-height: 69px;
+    text-shadow: 10px -10px 5px rgb(68, 51, 179);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
